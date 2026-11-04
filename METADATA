@@ -1,0 +1,28 @@
+name: "sha2"
+description: "Pure Rust implementation of the SHA-2 hash function family including SHA-224, SHA-256, SHA-384, and SHA-512."
+third_party {
+  version: "0.10.9"
+  license_type: NOTICE
+  last_upgrade_date {
+    year: 2026
+    month: 11
+    day: 4
+  }
+  homepage: "https://crates.io/crates/sha2"
+  identifier {
+    type: "crates.io"
+    value: "sha2"
+    version: "0.10.9"
+    primary_source: true
+  }
+  identifier {
+    type: "Archive"
+    value: "https://static.crates.io/crates/sha2/sha2-0.10.9.crate"
+    version: "0.10.9"
+  }
+  identifier {
+    type: "Git"
+    value: "https://github.com/RustCrypto/hashes"
+    version: "82c36a428f8d6f05f3bfccdedb243e9d1f85359d"
+  }
+}
